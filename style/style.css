@@ -1,0 +1,120 @@
+body {
+  background-color: #f5edbe;
+}
+
+.img_laco {
+  display: flex;
+  justify-content: center;
+}
+
+.img_laco img {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.conteudo {
+  text-align: center;
+}
+
+.conteudo .text1 {
+  text-transform: uppercase;
+  font-size: 4.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  line-height: 7vh;
+  color: #27290f;
+}
+
+.conteudo .text2 {
+  font-size: 5em;
+  color: #f1e210;
+  font-weight: bold;
+  font-family: cursive;
+  line-height: 5vh;
+}
+
+
+.conteudo .text3 {
+  font-size: 1.5em;
+  font-family: cursive;
+  font-weight: bold;
+  line-height: 10vh;
+  color: #27290f;
+}
+
+.frase {
+  display: flex;
+  justify-content: center;
+
+}
+
+.frase {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 5vh; */
+}
+
+.frase .p_frase {
+  font-size: 2.6vh;
+  margin-top: 35px;
+  text-align: left;
+  text-align: center;
+}
+
+.frase .p_frase strong {
+  font-size: 1.5em;
+  color: #27290f;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
+
+footer .footer_setembro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  font-weight: bolder;
+}
+
+.conteudo {
+  display: block;
+}
+
+.non-mobile-message {
+  display: none;
+}
+
+/* Media query para dispositivos móveis (largura máxima de 768px como exemplo) */
+@media (max-width: 768px) {
+  .conteudo {
+    display: block;
+    /* Exibe o conteúdo principal em dispositivos móveis */
+  }
+
+  .non-mobile-message {
+    display: none;
+    /* Oculta a mensagem em dispositivos móveis */
+  }
+}
+
+/* Media query para dispositivos não móveis (largura mínima de 769px) */
+@media (min-width: 769px) {
+  .conteudo {
+    display: none;
+    /* Oculta o conteúdo principal em dispositivos não móveis */
+  }
+
+  .non-mobile-message {
+    display: block;
+    /* Exibe a mensagem em dispositivos não móveis */
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    background-color: #fdd;
+    color: #d00;
+  }
+}
